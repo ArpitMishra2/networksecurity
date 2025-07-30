@@ -5,8 +5,12 @@ pymongo
 certifi
 pymongo[srv]==3.6
 scikit-learn
-dill
 pyaml
+dagshub
+fastapi
+uvicorn
+python-multipart
+mlflow
 
 
 
