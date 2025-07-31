@@ -10,7 +10,7 @@ from networksecurity.entity.config_entity import ModelTrainerConfig
 
 
 from networksecurity.utils.ml_utils.model.estimator import NetworkModel
-from networksecurity.utils.main_utils.utils import save_object,load_object  ##in main.utils file in utils and load object is not still created @ 5:56PM 7/31/2025
+from networksecurity.utils.main_utils.utils import save_object,load_object
 from networksecurity.utils.main_utils.utils import load_numpy_array_data,evaluate_models
 from networksecurity.utils.ml_utils.metric.classification_metric import get_classification_score
 

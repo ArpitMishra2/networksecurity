@@ -1,0 +1,24 @@
+[ 2025-07-31 19:10:51,030 ] 20 root - INFO - Initiate the data ingestion
+[ 2025-07-31 19:11:50,548 ] 66 root - INFO - Performed train test split on the dataframe
+[ 2025-07-31 19:11:50,548 ] 68 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-07-31 19:11:50,549 ] 76 root - INFO - Exporting train and test file path.
+[ 2025-07-31 19:11:50,600 ] 85 root - INFO - Exported train and test file path.
+[ 2025-07-31 19:11:50,601 ] 22 root - INFO - Data Initiation Completed
+[ 2025-07-31 19:11:50,608 ] 26 root - INFO - Initiate the data Validation
+[ 2025-07-31 19:11:50,690 ] 32 root - INFO - Required number of columns:2
+[ 2025-07-31 19:11:50,692 ] 33 root - INFO - Data frame has columns:31
+[ 2025-07-31 19:11:50,692 ] 32 root - INFO - Required number of columns:2
+[ 2025-07-31 19:11:50,692 ] 33 root - INFO - Data frame has columns:31
+[ 2025-07-31 19:11:50,823 ] 28 root - INFO - data Validation Completed
+[ 2025-07-31 19:11:50,824 ] 31 root - INFO - data Transformation started
+[ 2025-07-31 19:11:50,824 ] 64 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-07-31 19:11:50,824 ] 66 root - INFO - Starting data transformation
+[ 2025-07-31 19:11:50,848 ] 48 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2025-07-31 19:11:50,848 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-07-31 19:11:50,863 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-07-31 19:11:50,866 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-07-31 19:11:50,866 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-07-31 19:11:50,868 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-07-31 19:11:50,870 ] 35 root - INFO - data Transformation completed
+[ 2025-07-31 19:11:50,870 ] 37 root - INFO - Model Training sstared
+[ 2025-07-31 19:14:41,994 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000182DB556560>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /krishnaik06/networksecurity.mlflow/api/2.0/mlflow/runs/create
