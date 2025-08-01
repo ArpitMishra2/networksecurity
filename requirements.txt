@@ -10,7 +10,7 @@ dagshub
 fastapi
 uvicorn
 python-multipart
-mlflow
+mlflow==2.11.3
 
 
 
